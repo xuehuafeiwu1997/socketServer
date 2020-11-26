@@ -1,0 +1,6 @@
+framework module Pods_serverForSocketCommunication_serverForSocketCommunicationUITests {
+  umbrella header "Pods-serverForSocketCommunication-serverForSocketCommunicationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
