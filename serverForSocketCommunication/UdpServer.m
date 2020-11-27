@@ -25,6 +25,7 @@
     } else {
         NSLog(@"开启udp服务成功");
         NSError *err = nil;
+        //初始时两个网络名称不同，虽然ip地址相同，但是server接受不到客户端传来的消息
 //        [self.listenSocket receiveOnce:&err];//只接受一次数据
         [self.listenSocket beginReceiving:&err];
         if (err) {
