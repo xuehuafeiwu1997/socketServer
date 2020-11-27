@@ -29,8 +29,6 @@
         [self.listenSocket beginReceiving:&err];
         if (err) {
             NSLog(@"接收数据失败");
-        } else {
-            NSLog(@"接收数据成功");
         }
     }
 }
